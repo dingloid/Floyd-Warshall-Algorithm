@@ -33,6 +33,7 @@ Y 3 1 4 3 3 3 2 2 3 2 3 2 2 4 3 1 2 2 3 2 2 2 1 3 0 2
 Z 3 4 4 3 3 3 2 3 4 2 2 4 1 4 3 3 3 2 3 5 1 3 3 3 4 0 
 
 
-After matrix has been displayed user inputs two nodes based off of the index and then calculates the nodes taken for the shortest path.
+After matrix has been displayed user inputs two nodes based off of the index and then 
+calculates the nodes taken for the shortest path.
 
 
