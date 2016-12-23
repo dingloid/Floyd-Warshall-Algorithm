@@ -1,6 +1,5 @@
 //Floyd-Warshall Algorithm
 
-import java.io.IOException;
 import java.util.*;
 import java.lang.*;
 
@@ -54,9 +53,9 @@ class Main {
 
     try {
       //Determine the path taken based off of the index you choose
-      System.out.println("Please enter an integer for the first node:");
+      System.out.println("Please enter an integer(0-26) corresponding to the alphabet for the first node:");
       nodeOne = input.nextInt();
-      System.out.println("Please enter an integer for the second node:");
+      System.out.println("Please enter an integer(0-26) corresponding to the alphabet for the second node:");
       nodeTwo = input.nextInt();
 
       LinkedList<Character> node = getPath(nodeOne, nodeTwo, graph, path);
